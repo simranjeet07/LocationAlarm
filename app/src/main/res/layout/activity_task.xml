@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default"
+    tools:context="com.example.simranjeet.project1.TaskActivity">
+
+    <EditText
+        android:id="@+id/task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Task"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Place"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/task"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorPrimary"
+        android:onClick="onLocation"
+        android:text="SELECT LCATION" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/location"
+        android:layout_alignLeft="@+id/location"
+        android:layout_alignRight="@+id/location"
+        android:layout_alignStart="@+id/location"
+        android:layout_below="@+id/location"
+        android:layout_marginTop="58dp"
+        android:background="@color/colorPrimary"
+        android:text="START TASK" />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/task"
+        android:layout_marginTop="28dp"
+        android:text="TextView" />
+
+</RelativeLayout>

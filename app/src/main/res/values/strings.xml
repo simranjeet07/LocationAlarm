@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LocationAlarm</string>
+    <string name="enter_your_name">name</string>
+    <string-array name="favcric">
+        <item>Virat Kohli</item>
+        <item>Sachin Tendulkar</item>
+        <item>Yuvraj Singh</item>
+        <item>Harbhajan Singh</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>
